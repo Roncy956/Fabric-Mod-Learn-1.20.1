@@ -1,6 +1,7 @@
 package com.roncy956.learn.item;
 
 import com.roncy956.learn.LearnMod;
+import com.roncy956.learn.block.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -42,6 +43,9 @@ public class ModItemGroups {
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.ICE_ETHER);
                             entries.add(ModItems.RAW_ICE_ETHER);
+                            entries.add(ModBlocks.ICE_ETHER_BLOCK);
+                            entries.add(ModBlocks.RAW_ICE_ETHER_BLOCK);
+                            entries.add(ModBlocks.ICE_ETHER_ORE);
                         }).build()
         );
 
