@@ -1,5 +1,6 @@
 package com.roncy956.learn;
 
+import com.roncy956.learn.block.ModBlocks;
 import com.roncy956.learn.item.ModItemGroups;
 import com.roncy956.learn.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -22,6 +23,7 @@ public class LearnMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.init();
+		ModBlocks.init();
 		ModItemGroups.registerGroups();
 
 
