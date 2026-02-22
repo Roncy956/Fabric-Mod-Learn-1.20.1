@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "learn-mod:block/ice_ether_block"
+    }
+  }
+}
