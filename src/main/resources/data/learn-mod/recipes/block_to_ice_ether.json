@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "ice_ether",
+  "ingredients": [
+    {
+      "item": "learn-mod:ice_ether_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "learn-mod:ice_ether"
+  }
+}
